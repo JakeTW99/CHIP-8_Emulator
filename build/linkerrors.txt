@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-09-28T15:19:48.262Z
+Total Errors: 1
+================================================================================
+
+[LNK1168] (MSVC)
+cannot open C:\GameEmulatorProject\build\Debug\chip8_emu.exe for writing [C:\GameEmulatorProject\build\chip8_emu.vcxproj]

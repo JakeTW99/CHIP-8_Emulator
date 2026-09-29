@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug CHIP-8 (CMake)",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${command:cmake.launchTargetPath}",
+      "args": ["${workspaceFolder}/TestFiles/Pong (1 player).ch8"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+    }
+  ]
+}

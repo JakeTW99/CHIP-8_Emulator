@@ -1,0 +1,10 @@
+^C:\CHIP-8_EMULATOR\BUILD\CMAKEFILES\16BA3A56A2CA5FACDDC961D524DAFC02\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/CHIP-8_Emulator -BC:/CHIP-8_Emulator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/CHIP-8_Emulator/build/Chip8Emulator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
